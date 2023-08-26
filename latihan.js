@@ -50,3 +50,15 @@ let num3 = 6;
 let num4 = 2;
 console.log(num3 * num4);
 console.log(num3 / num4);
+
+//PANGKAT BILANGAN
+console.log("---------------------PANGKAT BILANGAN---------------------");
+let base = 3;
+let exponent = 4;
+console.log(base ** 4);
+
+//RATA-RATA DARI ARRAY
+console.log("--------------------RATA-RATA DARI ARRAY-----------------");
+let array = [2,8,12,4,6];
+let average = array.reduce((a,b)=> a+b) / array.length;
+console.log("Nilai Averagenya adalah : ", average);
