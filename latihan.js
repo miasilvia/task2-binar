@@ -37,3 +37,16 @@ console.log(typeof typeData3); //ini type data string
 console.log(typeof typeData4); //ini type data undefined
 console.log(typeof typeData5); //ini type data object
 
+//NUMBER PENJUMLAHAN DAN PENGURANGAN
+console.log("-----------------PENJUMLAHAN DAN PENGURANGAN--------------");
+let num1 = 10;
+let num2 = 5;
+console.log(num1 + num2);
+console.log(num1 - num2);
+
+//PERKALIAN DAN PEMBAGIAN
+console.log("-----------------PERKALIAN DAN PEMBAGIAN------------------");
+let num3 = 6;
+let num4 = 2;
+console.log(num3 * num4);
+console.log(num3 / num4);
