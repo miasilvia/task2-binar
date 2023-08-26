@@ -62,3 +62,13 @@ console.log("--------------------RATA-RATA DARI ARRAY-----------------");
 let array = [2,8,12,4,6];
 let average = array.reduce((a,b)=> a+b) / array.length;
 console.log("Nilai Averagenya adalah : ", average);
+
+//BILANGAN GANJIL ATAU GENAP
+console.log("------------------BILANGAN GANJIL ATAU GENAP-------------");
+let num = 7;
+if (num %2 == 0){
+    console.log("nilai", num, "adalah bilangan genap");
+}
+else{
+    console.log("nilai", num, "adalah bilangan ganjil");
+}
