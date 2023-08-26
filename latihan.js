@@ -72,3 +72,8 @@ if (num %2 == 0){
 else{
     console.log("nilai", num, "adalah bilangan ganjil");
 }
+
+//RANDOM
+console.log("--------------------RANDOM--------------------------------");
+let rdm = Math.floor(Math.random()*5);
+console.log("Nomor random :",rdm);
