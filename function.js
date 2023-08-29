@@ -16,3 +16,16 @@ console.log(student(nama.slice(0,3)),love); //gabungan
 console.log(student(nama.slice(-1))); //hutuf terakhir
 
 console.log("----MENGUBAH TIPE DATA----");
+
+function age(toNumber){
+    let data = parseInt(toNumber);
+    return data;
+}
+console.log(age("25")); 
+
+function long(toFloat){
+    let data = parseFloat(toFloat);
+    return data;
+}
+console.log(long("170"));
+
