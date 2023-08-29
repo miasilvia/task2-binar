@@ -29,3 +29,11 @@ function long(toFloat){
 }
 console.log(long("170"));
 
+console.log("----PENGECEKAN TIPE DATA----");
+
+function cekTipeData(value){
+let data = typeof(value);
+return data;
+}
+console.log(cekTipeData(true));
+
