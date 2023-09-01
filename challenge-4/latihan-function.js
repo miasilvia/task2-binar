@@ -15,4 +15,17 @@ operator == '-'? num1 - num2:
 console.log(calculator2(num1,operator,num2));
 
 //////////////////////////////////////
+console.log("--------------KONVERSI MENGGUNAKAN FUNCTION BIASA-----------------")
+function konversi(celcius){
+    let fahrenheit =(celcius * (9/5)) + 32;
+    return fahrenheit;
+    }
+    console.log("hasil fahrenheitnya adalah", konversi(20));
 
+
+console.log("--------------KONVERSI ARROW FUNCTION-----------------")
+let conversionArrow=(celcius)=> celcius * (9/5) + 32;
+console.log("Hasilnya adalah : ", conversionArrow(20));
+
+console.log("--------------KONVERSI Currying-----------------")
+function conversionCurrying()
