@@ -25,7 +25,17 @@ function konversi(celcius){
 
 console.log("--------------KONVERSI ARROW FUNCTION-----------------")
 let conversionArrow=(celcius)=> celcius * (9/5) + 32;
-console.log("Hasilnya adalah : ", conversionArrow(20));
+console.log("KONVERSI ARROW Hasilnya adalah : ", conversionArrow(20));
 
 console.log("--------------KONVERSI Currying-----------------")
-function conversionCurrying()
+let x = 9/5;
+let y= 32;
+celcius2 = 10;
+function conversionCurrying(celcius){
+    return function (x){
+        return function (y){
+            return celcius2 * x + y;
+        };
+    };
+};
+console.log("KONVERSI Currying Hasilnya adalah ",conversionCurrying(20)(x)(y));
